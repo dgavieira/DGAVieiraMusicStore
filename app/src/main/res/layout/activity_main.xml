@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B3E5FC"
-    tools:context=".MainActivity" >
+    android:contentDescription="@s"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/act_main_btn_sign_in"
@@ -37,6 +38,7 @@
         android:layout_width="248dp"
         android:layout_height="143dp"
         android:layout_marginTop="128dp"
+        android:contentDescription="@string/act_main_image_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +50,7 @@
         android:layout_width="198dp"
         android:layout_height="209dp"
         android:layout_marginTop="36dp"
+        android:contentDescription="@string/act_main_image_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
