@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DGAVieiraMusicStore</string>
+
+    <!-- Activity Main Strings -->
+    <string name="act_main_btn_signin">Sign In</string>
+    <string name="act_main_btn_register">New User? Register Here</string>
+</resources>
